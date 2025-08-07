@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        div{
+            height: 100px;
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 10px;
+            border: 1px solid black;
+        }
+        #one{
+            transform: rotate(-45deg);
+        }
+        #two{
+            /* transform: scale(2, 1); */
+            transform: scale(0.5);
+        }
+        #three{
+            transform: translate(50px, 50px);
+        }
+
+        #four{
+            transform: skew(30deg);
+        }
+        #five{
+            transform: rotate(30deg) skew(30deg) translateX(50px);
+        }
+    </style>
+</head>
+<body>
+    <div id="one">1</div>
+    <div id="two">2</div>
+    <div id="three">3</div>
+    <div id="four">4</div>
+    <div id="five">5</div>
+</body>
+</html>
